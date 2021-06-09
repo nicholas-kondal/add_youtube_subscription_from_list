@@ -4,7 +4,11 @@ Playing around with the YouTube Data API to add several subscriptions from a lis
 
 NOTE: This doesn't currently work for large channel lists due to Google's quota for API method calls (searching and adding subscriptions cost quite a bit). Could get all current subscriptions first instead of searching for the ids of existing ones.
 
-References:
+# Learnings
+- Using the YouTube Data API, authentication, and other Google Developer tools
+- Creating HTTP requests
+
+# References
 - https://github.com/youtube/api-samples/tree/master/python (add_subscriptions and search)
 - https://developers.google.com/youtube/v3/guides/working_with_channel_ids (working with channel ids)
 - https://developers.google.com/youtube/v3/docs/subscriptions/insert (inserting subscriptions)
